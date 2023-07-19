@@ -9,7 +9,7 @@ def caesar_cipher(message,key)
 		message = message.split('')
 		message.each do | letter|
 			alphabet_list.each_with_index do |alphabet, alphabet_index|
-				if alphabet == letter
+				if alphabet == letter.downcase
 					encoded_message.push(alphabet_list[alphabet_index + key])
 				end
 			end

@@ -29,6 +29,7 @@ def caesar_cipher(message,key)
 	end
 end
 
+<<<<<<< HEAD
 
 def decode_caesar_cipher(message,key)
 	if message.is_a? Numeric
@@ -63,3 +64,6 @@ end
 
 caesar_cipher('emma e no go better for you i yo lie give me ',7)
 decode_caesar_cipher("ltthluvnvil  lymvy v p vsplnp ltl",7)
+=======
+caesar_cipher('messages',7)
+>>>>>>> aacd3e008a8357b0859eeafa50c848b18acbcef5
